@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnSi: UIButton!
+    @IBOutlet weak var btnNo: UIButton!
+    @IBOutlet weak var imgContenedor: UIImageView!
+    @IBOutlet weak var lblPregunta: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnNo(_ sender: Any) {
+    }
 
+    
+    @IBAction func btnSi(_ sender: Any) {
+    
+    }
 }
 
