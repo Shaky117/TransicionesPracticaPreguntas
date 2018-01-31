@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85900B3020227FF500A9BC57 /* Pregunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85900B2F20227FF500A9BC57 /* Pregunta.swift */; };
 		85AD4163201FFFFF003F855D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD4162201FFFFF003F855D /* AppDelegate.swift */; };
 		85AD4165201FFFFF003F855D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD4164201FFFFF003F855D /* ViewController.swift */; };
 		85AD4168201FFFFF003F855D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AD4166201FFFFF003F855D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85900B2F20227FF500A9BC57 /* Pregunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta.swift; sourceTree = "<group>"; };
 		85AD415F201FFFFF003F855D /* TransicionesPracticaImagenes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransicionesPracticaImagenes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AD4162201FFFFF003F855D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85AD4164201FFFFF003F855D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				85AD4169201FFFFF003F855D /* Assets.xcassets */,
 				85AD416B201FFFFF003F855D /* LaunchScreen.storyboard */,
 				85AD416E201FFFFF003F855D /* Info.plist */,
+				85900B2F20227FF500A9BC57 /* Pregunta.swift */,
 			);
 			path = TransicionesPracticaImagenes;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85AD4165201FFFFF003F855D /* ViewController.swift in Sources */,
+				85900B3020227FF500A9BC57 /* Pregunta.swift in Sources */,
 				85AD4163201FFFFF003F855D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				85AD4189201FFFFF003F855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85AD418A201FFFFF003F855D /* Build configuration list for PBXNativeTarget "TransicionesPracticaImagenesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				85AD418C201FFFFF003F855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85AD418D201FFFFF003F855D /* Build configuration list for PBXNativeTarget "TransicionesPracticaImagenesUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				85AD418F201FFFFF003F855D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

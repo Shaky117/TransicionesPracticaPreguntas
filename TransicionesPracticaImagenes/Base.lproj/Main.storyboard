@@ -72,6 +72,7 @@
                         <outlet property="btnSi" destination="Z5j-gs-B6f" id="y8L-ze-FfR"/>
                         <outlet property="imgContenedor" destination="cgL-fc-2kL" id="aPC-Rn-gyD"/>
                         <outlet property="lblPregunta" destination="qEY-aS-2cI" id="Sm0-wD-HwN"/>
+                        <outlet property="vwContenedor" destination="JHm-vL-gcN" id="MAu-vf-ERB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
